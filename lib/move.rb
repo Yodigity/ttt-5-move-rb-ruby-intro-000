@@ -12,6 +12,6 @@ def input_to_index(entered_number)
   space = input - 1
 end
 
-def move(board_array, pos, char)
+def move(board_array, pos, char = "X")
   board_array[input_to_index(pos)] = char
 end
